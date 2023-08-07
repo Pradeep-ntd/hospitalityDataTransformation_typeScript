@@ -1,0 +1,10 @@
+<FinancialPostings>
+  <financialPosting>
+    <transactionType id="transactionType">Room Charge</transactionType>
+    <amount id="amount">1000</amount>
+  </financialPosting>
+  <financialPosting>
+    <transactionType id="transactionType">Dining Charge</transactionType>
+    <amount id="amount">100</amount>
+  </financialPosting>
+</FinancialPostings>

@@ -1,0 +1,1 @@
+[{"guestName":"John Doe","checkInDate":"2023-07-31","checkOutDate":"2023-08-04","roomType":"Deluxe Double","totalAmount":1200,"transactionType":"Room Charge,Dining Charge","amount":500},{"guestName":"Jane Smith","checkInDate":"2023-08-01","checkOutDate":"2023-08-05","roomType":"Executive Suite","totalAmount":1800,"transactionType":"Room Charge","amount":600}]

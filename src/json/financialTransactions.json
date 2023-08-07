@@ -1,0 +1,17 @@
+[
+    {
+        "guestName": "John Doe",
+        "transactionType": "Room Charge",
+        "amount": 400
+    },
+    {
+        "guestName": "John Doe",
+        "transactionType": "Dining Charge",
+        "amount": 100
+    },
+    {
+        "guestName": "Jane Smith",
+        "transactionType": "Room Charge",
+        "amount": 600
+    }
+]

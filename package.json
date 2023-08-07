@@ -1,0 +1,21 @@
+{
+  "name": "hospitalityDataTransformation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hospitalityDataTransformation.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/hospitalityDataTransformation.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "xmlbuilder2": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "typescript": "^5.1.6"
+  }
+}
