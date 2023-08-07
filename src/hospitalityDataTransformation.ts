@@ -11,7 +11,7 @@ export class hospitalityDataTransformation {
     }
     readGuestBookings(guestBookingJsonPath: string): guestBookings.guestBookingsInterface[] {
         try {
-            const jsonString = fis.readFileSync('./src/json/guestBookings.json', 'utf-8');
+            const jsonString = fis.readFileSync(guestBookingJsonPath, 'utf-8');
             guestBookingsData = JSON.parse(jsonString);
             return guestBookingsData
         } catch (err) {
@@ -21,7 +21,7 @@ export class hospitalityDataTransformation {
     }
     readFinancialTransactions(readFinancialTransactionsJsonPath: string): financialTrans.financialTransactionsInterface[] {
         try {
-            const jsonString = fis.readFileSync('./src/json/financialTransactions.json', 'utf-8');
+            const jsonString = fis.readFileSync(readFinancialTransactionsJsonPath, 'utf-8');
             financialTransactionsData = JSON.parse(jsonString);
             return financialTransactionsData;
         } catch (err) {
